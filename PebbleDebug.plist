@@ -1,0 +1,9 @@
+{
+	Filter = {
+		Bundles = (
+			"com.getpebble.pebbletime.enterprise",
+            "com.getpebble.pebbletime",
+            "com.getpebble.ios"
+		);
+	};
+}

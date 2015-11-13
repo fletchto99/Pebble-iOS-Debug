@@ -1,0 +1,9 @@
+Package: com.fletchto99.pebbledebug
+Name: PebbleDebug
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Enables the hidden debug menu in the Pebble Time and Pebble Apps
+Maintainer: Fletch to 99 <fletchto99@gmail.com>
+Author: Fletch to 99 <fletchto99@gmail.com>
+Section: Tweaks
