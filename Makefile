@@ -1,7 +1,8 @@
+include $(THEOS)/makefiles/common.mk
+
+# FOR_RELEASE=1
 ARCHS = armv7 armv7s arm64
 TARGET = iphone::8.4:8.4
-THEOS_BUILD_DIR = Packages
-include theos/makefiles/common.mk
 
 TWEAK_NAME = PebbleDebug
 PebbleDebug_FILES = Tweak.xm

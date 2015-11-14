@@ -26,7 +26,7 @@
 %hook PBDashboardDefaultSettingsView
  
 -(void)setOptions:(id)options {
-    NSLog(@"bananatime");
+    HBLogInfo(@"bananatime");
 
     NSMutableArray* mutableOptions = [options mutableCopy];
 
@@ -47,7 +47,7 @@
 }
 
 -(void)handleTapGesture:(UITapGestureRecognizer *)sender {
-    NSLog(@"bananatime");
+    HBLogInfo(@"bananatime");
     PBDashboardTableViewCell *cell = (PBDashboardTableViewCell *)sender.view;
     UILabel *label = (UILabel *)[cell optionLabel];
 
@@ -80,7 +80,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell;
 
-     NSLog(@"Bananatime");
+     HBLogInfo(@"Bananatime");
 
     if ([indexPath row] == ([tableView numberOfRowsInSection:indexPath.section] - 1)) {
         
@@ -96,7 +96,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-     NSLog(@"Bananatime");
+     HBLogInfo(@"Bananatime");
 
     if ([indexPath row] == ([tableView numberOfRowsInSection:indexPath.section] - 1)) {
         if (!NSClassFromString(@"FLEXManager")) {
